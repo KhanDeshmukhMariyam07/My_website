@@ -1,0 +1,31 @@
+name: flutter_portfolio
+description: A Flutter web portfolio page with theme toggle
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.1.0
+  provider: ^6.0.5
+  animated_text_kit: ^4.2.2
+  url_launcher: ^6.1.14
+  flutter_test:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  lucide_icons: ^0.257.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/profile.jpg
+    - assets/doctor_app.jpg
+    - assets/ai_cybersecurity.jpg
+    - assets/dsdsoft.jpg
+    # - assets/sun.jpg
+    # - assets/stars.jpg
+    # - assets/cloud.png
+    - assets/frighting.jpg
